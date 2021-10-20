@@ -1,0 +1,45 @@
+.switch-state  {
+	cursor: pointer;
+}
+
+.dataTable thead th:last-child, .dataTable tfoot th:last-child, .dataTable tbody td:last-child {
+	text-align: right;
+}
+
+.dataTable .dataTables_empty {
+	text-align: center !important
+}
+
+.weather-label {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.custom-control-input[type="checkbox"]:checked + .weather-label {
+	opacity: 1
+}
+
+.custom-control-input[type="checkbox"]:checked + .weather-label + p{
+	font-weight: bold;
+}
+
+.custom-control-input[type="radio"]:checked + .weather-label {
+	opacity: 1
+}
+
+.custom-control-input[type="radio"]:checked + .weather-label + p{
+	font-weight: bold;
+}
+
+.datepicker {
+	width: inherit;
+}
+
+
+/*
+.note-toolbar {
+	z-index: 5
+}
+
+
+*/
