@@ -26,7 +26,7 @@ class MercadoPago extends \MP
         $mpItems = [
             [
                 'id' => $payment->id,
-                'title' => 'Club de Caballeros',
+                'title' => 'Comunidad Fichap',
                 'description' => 'Pago del mes de ' . $payment->date->localeMonth,
                 'quantity' => 1,
                 'currency_id' => 'ARS',

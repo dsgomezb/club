@@ -28,12 +28,12 @@
                 </div>
 
                 <div class="form-group col-md-12">
-                    <label style="text-transform: none; font-size: 18px; padding-left: 0">¿Por qué querés ser parte de Club de Caballeros?</label>
+                    <label style="text-transform: none; font-size: 18px; padding-left: 0">¿Por qué querés ser parte de Comunidad Fichap?</label>
                     <textarea class="form-control form-control-square form-control-lg border-top-0 border-left-0 border-right-0" name="reason" placeholder="Ingresá tu respuesta">{{ old('reason') }}</textarea>
                 </div>
 
                 <div class="form-group col-md-12">
-                    <label style="text-transform: none; font-size: 18px; padding-left: 0">¿Cómo te enteraste de Club de Caballeros?</label>
+                    <label style="text-transform: none; font-size: 18px; padding-left: 0">¿Cómo te enteraste de Comunidad Fichap?</label>
                     <textarea class="form-control form-control-square form-control-lg border-top-0 border-left-0 border-right-0" name="reference" placeholder="Ingresá tu respuesta">{{ old('reference') }}</textarea>
                 </div>
 

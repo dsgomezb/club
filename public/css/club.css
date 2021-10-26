@@ -1,14 +1,14 @@
-@font-face { font-family: 'Averta'; src: url(/fonts/AvertaCY-Light.otf); } 
+@font-face { font-family: 'redHatDisplayRegular'; src: url(/fonts/RedHatDisplay-Regular.ttf); } 
 @font-face { font-family: 'Butler'; src: url(/fonts/Butler_Light.otf); }
 body {
-	font-family: "Averta",Helvetica,Arial,sans-serif
+	font-family: "redHatDisplayRegular"
 }
 
 .btn{letter-spacing: 0}
 
 /*COLORS*/
-.color-gold{ color:rgb(230,198,103)  !important; }
-.bg-gold{ background-color: rgb(230,198,103) !important; }
+.color-green{ color:#39E489  !important; }
+.bg-green{ background-color: #39E489 !important; }
 
 .bg-dark{ background-color: #222 !important;  }
 .color-dark{ color: #222 !important;  }
@@ -16,27 +16,27 @@ body {
 .bg-darker{ background-color: #111 !important; }
 .color-darker{ color: #111 !important; }
 .border-darker {border-color:#111 !important; }
-body { background-color: #111 !important; }
+body { background-color: #FFFFFF !important; }
 
 .btn-outline-light { border-color: #fff;color: #fff; }
 .btn-outline-light:hover { border-color: #fff;color: #fff; border-radius: 14px;}
 
 .border-white{ border-color: white;  }
 
-a:hover,a:focus,a:active,a.navi-link:hover,a.navi-link:focus,a.navi-link:active{ color: rgb(226, 206, 146) !important; }
-
+/*a:hover,a:focus,a:active,a.navi-link:hover,a.navi-link:focus,a.navi-link:active,button:hover{ color: #FFF !important; }*/
+button:hover{ color: #FFF !important; }
 /*TOLLBAR*/
 .toolbar.user-logued{width: 390px}
 @media(max-width: 928px){.toolbar.user-logued{width: 50%}}
 .toolbar{ width: 100px }
 .toolbar .toolbar-toggle:not(.for-user){ width: 50px; }
 .toolbar-dropdown{ height: auto; }
-.toolbar .toolbar-toggle.bg-gold.active::after{ color: black }
+.toolbar .toolbar-toggle.bg-green.active::after{ color: black }
 
 /*tab nav*/
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-item.show .nav-link>i, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active>i{
-	border-bottom-color: rgb(230,198,103);
-	color: rgb(230,198,103);
+	border-bottom-color: #39E489;
+	color: #39E489;
 }
 
 /*logo*/
@@ -62,7 +62,7 @@ input.form-control,select.form-control,textarea.form-control{
 input.form-control:focus,select.form-control:focus,textarea.form-control:focus,
 input.form-control:active,select.form-control:active,textarea.form-control:active{
 	background-color: transparent;
-	border-color: rgb(230,198,103) !important; 
+	border-color: #39E489 !important; 
 	border-width: 1px !important;
 }
 
@@ -74,16 +74,16 @@ input.form-control:active,select.form-control:active,textarea.form-control:activ
 .site-menu li:not(:first-child)>a{ padding-left: 20px }
 .site-menu li:not(:first-child)::before{
 	content: '•';
-	color: rgb(230,198,103);
+	color: #39E489;
 	font-size: 22px;
 	display: inline-block;
 	height: 100%;
 	position: absolute;
 	line-height: 50px;
 }
-.site-menu li>a:hover{ color:rgb(230,198,103); }
+.site-menu li>a:hover{ color:#39E489; }
 .site-menu li.active::after{ content: "";display: inline-block;width: 100%;position: absolute;height: 2px;background-color: white;bottom: 0px; }
-.slideable-menu .menu li.active>a, .slideable-menu .menu li.active>span>a{ border-left-color:rgb(230,198,103);color:rgb(230,198,103) !important }
+.slideable-menu .menu li.active>a, .slideable-menu .menu li.active>span>a{ border-left-color:#39E489;color:#39E489 !important }
 
 
 /*SLIDER*/
@@ -113,7 +113,7 @@ input.form-control:active,select.form-control:active,textarea.form-control:activ
 /*Owl style*/
 .owl-carousel.large-controls .owl-prev, .owl-carousel.large-controls .owl-next{
 	background-color: black;
-	color: rgb(230,198,103);
+	color: #39E489;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
@@ -147,7 +147,7 @@ input:hover,input:focus,input:active{
 }
 
 .custom-control .custom-control-input:checked ~ .custom-control-label::before{
-	background-color: rgb(230,198,103);
+	background-color: #39E489;
 	border-radius: 0;
 }
 
@@ -261,7 +261,7 @@ input:hover,input:focus,input:active{
 
 .profile .edit-picture{
 	color: black;
-	background-color: rgb(230,198,103) ;
+	background-color: #39E489 ;
 }
 
 /*Profile form picture*/
@@ -313,10 +313,10 @@ input:hover,input:focus,input:active{
 
 .rate:not([qualified]) >span:hover,
 .rate:not([qualified]) >span:hover ~ span{
-	color: rgb(230,198,103);
+	color: #39E489;
 }
 
 .rate >span[checked],
 .rate >span[checked] ~ span{
-	color: rgb(230,198,103)  
+	color: #39E489  
 }

@@ -5,7 +5,7 @@
     		<div class="category-card-date bg-dark">
     			<span>{{ $post->published_at->formatLocalized('%b') }}</span>
     			<span>{{ $post->published_at->day }}</span>
-    			<span  class="color-gold">{{ $post->published_at->year }}</span>
+    			<span  class="color-green">{{ $post->published_at->year }}</span>
     		</div>
     	</div>
       <div class="category-card-info w-100 p-3 text-left">
@@ -14,14 +14,14 @@
 
         <div class="d-flex justify-content-between mt-4">
           @if (isset($profile) && auth('user')->id() == $post->user_id)
-            <sapn data-link="{{ route('post.edit', $post->slug) }}" class="edit color-gold navi-link p-4">Editar</sapn>
-            <sapn class="delete color-gold navi-link p-4">Borrar</sapn>
+            <sapn data-link="{{ route('post.edit', $post->slug) }}" class="edit color-green navi-link p-4">Editar</sapn>
+            <sapn class="delete color-green navi-link p-4">Borrar</sapn>
             <form action="{{ route('post.delete', $post->slug) }}" method="post">
               @method('DELETE')
               @csrf
             </form>
           @else
-        	 <span class="color-gold"><small>{{ $post->category->value }}</small></span>
+        	 <span class="color-green"><small>{{ $post->category->value }}</small></span>
           @endif
         </div>
       </div>

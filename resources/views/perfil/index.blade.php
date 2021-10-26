@@ -34,7 +34,7 @@
 							            			@include('front.home._card', ['profile' => $user->id == \Auth("user")->id()])
 							            		@empty
 							            			<div class="grid-item">
-			            								<h4 class=" pl-3 color-gold">Aún no tiene publicaciones</h4>
+			            								<h4 class=" pl-3 color-green">Aún no tiene publicaciones</h4>
 							            			</div>
 							            		@endforelse
 			            					</div>
@@ -47,7 +47,7 @@
 			            			@empty
 			            				<div class="row">
 			            					<div class="col-md-12">
-			            						<h4 class=" pl-3 color-gold">Aún no tiene calificaciones</h4>
+			            						<h4 class=" pl-3 color-green">Aún no tiene calificaciones</h4>
 			            					</div>
 			            				</div>
 		            				@endforelse

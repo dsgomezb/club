@@ -6,7 +6,7 @@
 @endif
 <meta name="_token" content="{{csrf_token()}}">
 <!-- SEO Meta Tags-->
-<meta name="description" content="@yield('description', 'Club de Caballeros')">
+<meta name="description" content="@yield('description', 'Comunidad Fichap')">
 <!-- Mobile Specific Meta Tag-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <!-- Favicon and Apple Icons-->

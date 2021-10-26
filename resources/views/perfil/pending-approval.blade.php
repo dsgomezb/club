@@ -7,7 +7,7 @@
 				<div class="bg-dark">
 					<div class="row align-items-center justify-content-center">
 						<div class="col-md-12 pb-0 pt-2 p-md-5 pl-5 pr-5 text-center text-md-left">
-							<h2 class="color-gold mb-0">APROBACIÓN PENDIENTE</h2>
+							<h2 class="color-green mb-0">APROBACIÓN PENDIENTE</h2>
 
 							<p class="mt-2">Su usuario se encuentra en espera de recibir la aprobación para ingresar. Una vez aprobado por el administrador recibirá un mail notificándolo.</p>
 						</div>

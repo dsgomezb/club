@@ -7,7 +7,7 @@
 		</div>
 		<div class="col-md-9 text-center text-md-left position-relative">
 			<div class=" pb-0 pt-2 p-md-4 pl-5 pr-5">
-				<h2 class="color-gold mb-0">{{ $user->full_name }}</h2>
+				<h2 class="color-green mb-0">{{ $user->full_name }}</h2>
 				@include('perfil._rate', [
 					'stars' => $user->stars,
 					'user'=>$user

@@ -5,12 +5,12 @@
 			<div class="category-card-date bg-darker">
 				<span>{{ $post->published_at->formatLocalized('%b') }}</span>
                 <span>{{ $post->published_at->day }}</span>
-                <span  class="color-gold">{{ $post->published_at->year }}</span>
+                <span  class="color-green">{{ $post->published_at->year }}</span>
 			</div>
 			<div class="d-none d-md-flex flex-column flex-md-row mt-2 mt-md-0">
-				<span class="ml-3 text-white"><i class="material-icons person_outline mr-1 color-gold"></i>por {{ $post->author->full_name }}</span>
-				<span class="ml-3 text-white mt-2 mt-md-0"><i class="material-icons chat_bubble_outline mr-1 color-gold"></i>{{ $post->comments->count() }} comentarios</span>
-				<span class="ml-3 text-white mt-2 mt-md-0"><i class="material-icons bookmark_border mr-1 color-gold"></i>{{ $post->category->value }}</span>
+				<span class="ml-3 text-white"><i class="material-icons person_outline mr-1 color-green"></i>por {{ $post->author->full_name }}</span>
+				<span class="ml-3 text-white mt-2 mt-md-0"><i class="material-icons chat_bubble_outline mr-1 color-green"></i>{{ $post->comments->count() }} comentarios</span>
+				<span class="ml-3 text-white mt-2 mt-md-0"><i class="material-icons bookmark_border mr-1 color-green"></i>{{ $post->category->value }}</span>
 			</div>
 		</div>
 
@@ -26,8 +26,8 @@
 			</div>
 
 			<div class="col-md-12 justify-content-between d-flex">
-				<a href="{{ route('post.edit', $post->slug) }}" class="color-gold navi-link p-4">Editar</a>
-                <a href="{{ route('post.delete', $post->slug) }}" class="delete color-gold navi-link p-4 text-right w-100">Borrar</a>
+				<a href="{{ route('post.edit', $post->slug) }}" class="color-green navi-link p-4">Editar</a>
+                <a href="{{ route('post.delete', $post->slug) }}" class="delete color-green navi-link p-4 text-right w-100">Borrar</a>
                 <form action="{{ route('post.delete', $post->slug) }}" method="post">
                 	@method('DELETE')
                 	@csrf

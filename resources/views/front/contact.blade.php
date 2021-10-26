@@ -10,10 +10,10 @@
 					<div class="row align-items-center">
 						<h1 class="col-md-6 col-sm-12 mb-3 mb-md-0 text-white">Contactanos</h1>
 						<div class="col-md-6 col-sm-12 ">
-							<div class="d-flex align-items-center"><i style="font-size: 25px;" class="material-icons mr-2 color-gold text-md">mail_outline</i> <span>info@clubdecaballeros.com.ar</span></div>
-							<div class="d-flex align-items-center mt-2 mb-2"><i style="font-size: 25px;" class="material-icons mr-2 color-gold text-md">phone</i> <span>(011) 5959-1555</span></div>
-							<a href="" target="_blank" class="social-button shape-circle sb-facebook sb-light-skin"><i class="socicon-facebook color-gold"></i></a>
-							<a href="" target="_blank" class="social-button shape-circle sb-twitter sb-light-skin"><i class="socicon-twitter color-gold"></i></a>
+							<div class="d-flex align-items-center"><i style="font-size: 25px;" class="material-icons mr-2 color-green text-md">mail_outline</i> <span>info@clubdecaballeros.com.ar</span></div>
+							<div class="d-flex align-items-center mt-2 mb-2"><i style="font-size: 25px;" class="material-icons mr-2 color-green text-md">phone</i> <span>(011) 5959-1555</span></div>
+							<a href="" target="_blank" class="social-button shape-circle sb-facebook sb-light-skin"><i class="socicon-facebook color-green"></i></a>
+							<a href="" target="_blank" class="social-button shape-circle sb-twitter sb-light-skin"><i class="socicon-twitter color-green"></i></a>
 						</div>
 					</div>
 				</div>

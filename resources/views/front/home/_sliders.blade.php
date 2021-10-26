@@ -10,7 +10,7 @@
                 <p class="text-sm text-white d-none d-md-block">{{ \Str::limit(strip_tags($homeSlider->content), 80) }}</p>
                 <a class="btn btn-outline-light rounded-0 mx-0 scale-up delay-1" href="/{{ $homeSlider->category->slug }}/{{ $homeSlider->slug }}">Ver más</a>
 
-                <p class="mt-4 color-gold  d-none d-md-block">Por {{ $homeSlider->author->full_name }}</p>
+                <p class="mt-4 color-green  d-none d-md-block">Por {{ $homeSlider->author->full_name }}</p>
               </div>
             </div>
           </div>

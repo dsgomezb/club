@@ -9,7 +9,7 @@
     <div class="container padding-bottom-3x mb-1">
       <div class="text-center text-white">
         <h2 class="text-white">Página no encontrada</h2>
-        <p>Parece que no podemos encontrar la página que estás buscando. <a href="/" class="navi-link color-gold">Volver a la página principal</a> o intente usar la búsqueda en la esquina superior derecha de la página.</p>
+        <p>Parece que no podemos encontrar la página que estás buscando. <a href="/" class="navi-link color-green">Volver a la página principal</a> o intente usar la búsqueda en la esquina superior derecha de la página.</p>
       </div>
     </div>
 @endsection

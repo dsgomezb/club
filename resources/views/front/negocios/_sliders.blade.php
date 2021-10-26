@@ -9,7 +9,7 @@
             <p class="text-sm text-white d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             <a class="btn btn-outline-light rounded-0 mx-0 scale-up delay-1" href="/negocios/post">Ver más</a>
 
-            <p class="mt-4 color-gold  d-none d-md-block">Por Maxi Soriano</p>
+            <p class="mt-4 color-green  d-none d-md-block">Por Maxi Soriano</p>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
             <p class="text-sm text-white d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             <a class="btn btn-outline-light rounded-0 mx-0 scale-up delay-1" href="/negocios/post">Ver más</a>
 
-            <p class="mt-4 color-gold  d-none d-md-block">Por Maxi Soriano</p>
+            <p class="mt-4 color-green  d-none d-md-block">Por Maxi Soriano</p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
             <p class="text-sm text-white  d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             <a class="btn btn-outline-light rounded-0 mx-0 scale-up delay-1" href="/negocios/post">Ver más</a>
             
-            <p class="mt-4 color-gold  d-none d-md-block">Por Maxi Soriano</p>
+            <p class="mt-4 color-green  d-none d-md-block">Por Maxi Soriano</p>
           </div>
         </div>
       </div>

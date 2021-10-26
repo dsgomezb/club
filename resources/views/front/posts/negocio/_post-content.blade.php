@@ -6,7 +6,7 @@
 			<div class="pl-3 pr-3">
 				<h2 class="text-white col-9 col-md-12 p-0">{{ $post->title }}</h2>
 				<div class="d-flex pb-5">
-					<a href="{{$post->author->profilePath}}" class="navi-link text-white"><i class="material-icons person_outline mr-1 color-gold"></i>Por {{ $post->author->full_name }}</a>
+					<a href="{{$post->author->profilePath}}" class="navi-link text-white"><i class="material-icons person_outline mr-1 color-green"></i>Por {{ $post->author->full_name }}</a>
 					<span class="ml-3 text-white">{{ $post->published_at->format('d/m/Y') }}</span>
 				</div>
 			</div>
@@ -14,29 +14,29 @@
 
 			<div class="row py-5 pl-3 pr-3">
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Locación</small>
+					<small class="color-green">Locación</small>
 					<p>{{ $post->location }}</p>
 				</div>
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Publicado</small>
+					<small class="color-green">Publicado</small>
 					<p>Hace 1 mes</p>
 				</div>
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Área</small>
+					<small class="color-green">Área</small>
 					<p>{{ $post->zone }}</p>
 				</div>
 				<div class="col-md-3 mb-2 mb-md-0"></div>
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Inversión mínima</small>
+					<small class="color-green">Inversión mínima</small>
 					{{-- <p>${{ number_format(($post->minimum_investment), 0, '', '.') }}</p> --}}
 					<p>${{ $post->minimum_investment}}</p>
 				</div>
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Empresa</small>
+					<small class="color-green">Empresa</small>
 					<p>{{ $post->company }}</p>
 				</div>
 				<div class="col-md-3 mb-2 mb-md-0">
-					<small class="color-gold">Comienzo</small>
+					<small class="color-green">Comienzo</small>
 					<p>{{ $post->start }}</p>
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 			<div class="row">
 				@if($post->canQualify())
 					<div class="col-md-10 offset-md-1 mt-50 justify-content-center text-center margin-bottom-2x margin-top-1x">
-						<h5 class="color-gold">Calificar entrada</h5>
+						<h5 class="color-green">Calificar entrada</h5>
 						@php 
 							$stars = $post->getAuthQualification()
 						@endphp

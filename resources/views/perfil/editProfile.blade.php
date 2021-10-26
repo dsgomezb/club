@@ -13,7 +13,7 @@
 				<div class="bg-dark">
 					<div class="row">
 						<div class="col-md-12 pl-5 pr-5 pt-5 pb-0">
-							<h2 class="color-gold mb-0">Mi perfil</h2>
+							<h2 class="color-green mb-0">Mi perfil</h2>
 						</div>
 						<div class="col-md-12 pt-0">
 							<form action="{{ route('profile.update') }}" method="post" class="form row p-4" enctype="multipart/form-data">
@@ -47,7 +47,7 @@
 
 			              		<div class="col-md-12">
 			              			<hr>
-			              			<h5 class="color-gold mt-2">Cambiar contraseña</h5>
+			              			<h5 class="color-green mt-2">Cambiar contraseña</h5>
 
 			              			<div class="row">
 			              				<div class="col-md-6 mb-4">

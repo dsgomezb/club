@@ -3,7 +3,7 @@
 <div class="{{$col ?? 'col-md-3'}}">
 	<div class=" bg-dark p-3">
 		<div class="mb-5 mt-4">
-			<h5 class="color-gold">Publicaciones</h5>
+			<h5 class="color-green">Publicaciones</h5>
 			<ul class="text-white list-unstyled">
                 @foreach ($months as $month)
 				    <li><a href="/publicaciones/{{ strtolower($calendar->numberToMonth($month->month)) }}/{{ $month->year }}" class="navi-link text-white">{{ $calendar->numberToMonth($month->month) }} ({{ $month->total }})</a></li>
@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="mb-5">
-			<h5 class="color-gold">Más populares</h5>
+			<h5 class="color-green">Más populares</h5>
 			<div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 0, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:1},&quot;991&quot;:{&quot;items&quot;:1},&quot;1200&quot;:{&quot;items&quot;:1}} }">
                 @foreach ($populars as $popular)
 				    <a href="/{{ $popular->category->slug }}/{{ $popular->slug }}" class="navi-link text-white mt-1"><img src="/content/posts/index/{{ $popular->thumb }}" alt="{{ $popular->title }}">
@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="mb-5">
-			<h5 class="color-gold">Newsletter</h5>
+			<h5 class="color-green">Newsletter</h5>
 			<form id="newsletter-form" action="/newsletter" method="post" class="form">
 				<div class="form-group">
 					<input name="email" class="form-control form-control-square newsletter" type="email" id="normal-square-input" placeholder="E-mail">
@@ -36,7 +36,7 @@
 		</div>
 
 		<div class="mb-5">
-			<h5 class="color-gold">Archivo</h5>
+			<h5 class="color-green">Archivo</h5>
 			<div id="calendar"></div>
 			
 			<script>

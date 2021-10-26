@@ -16,9 +16,9 @@
 
     <div class="inner">
 
-    	<a href="/perfil/post/create" class="d-none d-md-block btn btn-dark mr-0 rounded btn-rounded btn-pill btn-sm bg-gold text-capitalize text-white"><i class="material-icons create mr-2"></i>Nueva entrada</a>
+    	<a href="/perfil/post/create" class="d-none d-md-block btn btn-dark mr-0 rounded btn-rounded btn-pill btn-sm bg-green text-capitalize text-white"><i class="material-icons create mr-2"></i>Nueva entrada</a>
     	<a class="toolbar-toggle for-user bg-dark text-white" href="#user"><i class="text-white" style="font-size: 15px"><span class="d-none d-sm-inline-block">Hola, </span>{{ \Auth('user')->user()->username }}</i></a>
-    	<a class="toolbar-toggle bg-gold" href="#search"><i class="material-icons search text-dark"></i></a>
+    	<a class="toolbar-toggle bg-green" href="#search"><i class="material-icons search text-dark"></i></a>
     	<a class="toolbar-toggle mobile-menu-toggle bg-dark" style="display: table-cell" href="#mobileMenu"><i class="material-icons menu text-white"></i></a>
     </div>
     <!-- Toolbar Dropdown-->
@@ -38,7 +38,7 @@
       <!-- Search Section-->
       <div class="toolbar-section" id="search">
         <form action="/busqueda" class="search-form mb-2" method="get">
-          <input name="q" type="search" placeholder="Buscar..."><i class="material-icons search color-gold"></i>
+          <input name="q" type="search" placeholder="Buscar..."><i class="material-icons search color-green"></i>
         </form>
       </div>
 
@@ -53,14 +53,14 @@
                   <img class="rounded-circle border border-white" style="width: 50px;max-width: 100%" src="/content/users/thumb/{{ \Auth('user')->user()->thumb }}" alt="{{ \Auth('user')->user()->full_name }}">
                 </div>
                 <div class="col-md-9">
-                  <p class="color-gold mb-0 mt-1 " style="line-height: 1">{{ \Auth('user')->user()->full_name }}</p>
+                  <p class="color-green mb-0 mt-1 " style="line-height: 1">{{ \Auth('user')->user()->full_name }}</p>
                   {{--<small class="text-muted">/ma.quiroga</small>--}}
                 </div>
               </a>
             </li>
-            <li class="{{request()->is("perfil") ? 'active' : ''}}"><span><a href="/perfil" class="text-white"><span><i class="material-icons person_outline color-gold mr-3"></i>Mi perfil</span></a></span></li>
-            <li><span><a href="/perfil/post/create" class="text-white"><span><i class="material-icons create color-gold mr-3"></i>Nueva entrada</span></a></span></li>
-            <li><span><a href="{{ route('perfil.logout') }}" class="text-white"><span><i class="material-icons exit_to_app color-gold mr-3"></i>Cerrar sesión</span></a></span></li>
+            <li class="{{request()->is("perfil") ? 'active' : ''}}"><span><a href="/perfil" class="text-white"><span><i class="material-icons person_outline color-green mr-3"></i>Mi perfil</span></a></span></li>
+            <li><span><a href="/perfil/post/create" class="text-white"><span><i class="material-icons create color-green mr-3"></i>Nueva entrada</span></a></span></li>
+            <li><span><a href="{{ route('perfil.logout') }}" class="text-white"><span><i class="material-icons exit_to_app color-green mr-3"></i>Cerrar sesión</span></a></span></li>
           </ul>
         </nav>
       </div>
