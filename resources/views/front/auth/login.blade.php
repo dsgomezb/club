@@ -32,7 +32,7 @@
 
             <div class="row w-100 pl-3 pr-3 w-100 justify-content-center">
                 <div class="col-md-12 text-center"><strong>¿No eres miembro? <a class="color-green" style="text-decoration: none;" href="{{ route('perfil.register') }}">Crea una cuenta.</strong></a></div>
-                <div class="col-md-12 text-center mt-3"><a class="navi-link text-white" href="{{ route('perfil.password.update') }}">Recuperar Contraseña</a></div>
+                <div class="col-md-12 text-center mt-3"><a style="text-decoration: none; color: #606060;" href="{{ route('perfil.password.update') }}"><strong>Recuperar Contraseña</strong></a></div>
             </div>
         </div>
     </div>

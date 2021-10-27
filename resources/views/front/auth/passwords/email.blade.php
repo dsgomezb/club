@@ -2,14 +2,14 @@
 
 @section("content")
     <div class="client-login-form d-flex" style="height: 100vh">
-        <div class="bg-image h-100 d-none d-sm-inline-block" style="background-image: url(/img/backgrounds/login.jpg)"></div>
+        <div class="bg-image h-100 d-none d-sm-inline-block img-fluid" alt="Silverfox" style="background-image: url(/img/backgrounds/bg-login.png); background-repeat: no-repeat;"></div>
         <div class="h-100 d-flex flex-column justify-content-center align-items-center">
-            <img style="max-width: 60%" src="/img/logo/logo.png" alt="">
+            <img width="150px" src="/img/logo/logo.png" alt="">
 
             <form action="{{ route('admin.password.email') }}" method="post" class="form mt-4" style="width: 80%;">
                 @include('front.partials.errors')
                 
-                <h6 class="text-white mt-3 text-center text-uppercase">Olvidé mi contraseña</h6>
+                <h5 style="color: #606060;" class="mt-3 text-center text-uppercase">Olvidé mi contraseña</h5>
                 @csrf
 
                 <div class="form-group">
@@ -17,7 +17,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn btn-white btn-square w-100 " type="submit">Recuperar contraseña</button>
+                    <button class="btn btn-outline w-100 bg-green login-btn" type="submit">Recuperar contraseña</button>
                 </div>
             </form>
         </div>
