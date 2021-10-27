@@ -5,7 +5,9 @@
     <div class="client-login-form d-flex" style="height: 100vh">
         <div class="bg-image h-100 d-none d-sm-inline-block img-fluid" alt="Silverfox" style="background-image: url(/img/backgrounds/bg-login.png); background-repeat: no-repeat;"></div>
         <div class="h-100 d-flex flex-column justify-content-center align-items-center">
-            <img style="max-width: 60%" src="/img/logo/logo.png" alt="">
+            <div class="mb-4">
+                <img width="150px" src="/img/logo/logo.png" alt="">
+            </div>
             <form action="{{ route('perfil.login') }}" method="post" class="form mt-4" style="width: 80%;">
                 @include('front.partials.errors')
 
@@ -24,7 +26,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button style="color: #132C4A;" class="btn btn-outline w-100 bg-green" type="submit">Acceder</button>
+                    <button class="btn btn-outline w-100 bg-green login-btn" type="submit">Acceder</button>
                 </div>
             </form>
 

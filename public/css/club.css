@@ -4,6 +4,12 @@ body {
 	font-family: "redHatDisplayRegular"
 }
 
+.login-btn{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #132C4A;
+}
 .btn{letter-spacing: 0}
 
 /*COLORS*/
@@ -141,7 +147,7 @@ input.form-control:active,select.form-control:active,textarea.form-control:activ
 input,
 input:hover,input:focus,input:active{
 	background-color: transparent !important;
-	color: white !important;
+	color: #A1ACC2 !important;
 	border-color: #979797 !important;
 	border-width: 1px !important;
 }
