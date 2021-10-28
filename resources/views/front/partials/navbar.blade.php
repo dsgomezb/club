@@ -1,7 +1,7 @@
 <!-- Navbar-->
 <header class="navbar navbar-sticky bg-dark">
   <!-- Site Branding-->
-  <div class="site-branding"><a class="site-logo hidden-xs-down" href="/"><img src="/img/logo/logo-horizontal.png" alt="{{ config('app.name') }}"></a><a class="site-logo logo-sm hidden-sm-up" href="/"><img src="/img/logo/logo-horizontal.png" alt="{{ config('app.name') }}"></a>
+  <div class="site-branding"><a class="site-logo hidden-xs-down" href="/"><img src="/img/logo/logo.png" alt="{{ config('app.name') }}"></a><a class="site-logo logo-sm hidden-sm-up" href="/"><img src="/img/logo/logo.png" alt="{{ config('app.name') }}"></a>
   </div>
   <!-- Main Navigation-->
   <nav class="site-menu">
